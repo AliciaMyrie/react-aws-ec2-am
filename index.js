@@ -5,7 +5,7 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
-const PORT = 4400
+const PORT = 4040
 
 app.get('/', (req, res)=> {res.send("my api 🐮")})
 
